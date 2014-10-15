@@ -24,7 +24,7 @@ libmime-lite-perl librrds-perl libdbi-perl libxml-simple-perl
 libhttp-server-simple-perl libconfig-general-perl
 libio-socket-ssl-perl
 
-# Install SickBeard 3a70a6effe (2014-06-22)
+# Install Monitorix
 RUN mkdir /opt/monitorix
 RUN apt-get install -y wget nano
 RUN wget http://www.monitorix.org/monitorix_3.6.0-izzy1_all.deb && \
